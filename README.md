@@ -90,3 +90,28 @@ Superusuario local de pruebas (solo desarrollo):
 - Sesión corregida: la primera entrega tenía la vista dentro del paquete del
   proyecto y no incluía app propia; en esta versión la app `core` concentra toda
   la lógica del laboratorio.
+## Capturas de pantalla
+
+Pagina principal
+<img width="1763" height="837" alt="Captura de pantalla 2026-09-13 132901" src="https://github.com/user-attachments/assets/7c807219-55a6-45ae-8520-1a5de993ad7e" />
+
+Panel de loggin
+<img width="721" height="580" alt="Captura de pantalla 2026-09-13 133044" src="https://github.com/user-attachments/assets/9656361c-3c77-4d76-b9dd-9c3da59c14e7" />
+
+Panel de Administrador
+<img width="899" height="464" alt="Captura de pantalla 2026-09-13 132756" src="https://github.com/user-attachments/assets/bf18273d-a6fc-47c1-9f8b-9b9fbb86a223" />
+<img width="977" height="624" alt="Captura de pantalla 2026-09-13 132822" src="https://github.com/user-attachments/assets/358583ac-c53e-4f96-84aa-cd6f37bf12f3" />
+<img width="764" height="400" alt="Captura de pantalla 2026-09-13 132958" src="https://github.com/user-attachments/assets/1d8973a5-7395-45c2-a44e-becda68d29b8" />
+
+
+
+Estrutura del proyecto:
+- views.pý
+  <img width="841" height="696" alt="Captura de pantalla 2026-09-13 133122" src="https://github.com/user-attachments/assets/444a0767-d124-44e0-8dc8-019de822ddce" />
+
+- models.py
+  <img width="572" height="320" alt="Captura de pantalla 2026-09-13 135529" src="https://github.com/user-attachments/assets/dd41ed3c-5e4f-4dae-99c3-0547d6670b4f" />
+
+- urls.py
+  <img width="559" height="309" alt="Captura de pantalla 2026-09-13 135510" src="https://github.com/user-attachments/assets/3ad07642-f545-4218-a471-e3e2fd65f49b" />
+

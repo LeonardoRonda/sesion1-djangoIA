@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Items — Django App{% endblock %}
+
+{% block content %}
+    <h1>Lista de <em>Items</em></h1>
+    <p class="lead">Registros creados desde el panel de administración.</p>
+
+    {% if items %}
+        <section class="item-grid">
+            {% for item in items %}
+                <article class="item-card">
+                    <h3>{{ item.name }}</h3>
+                    <p>{{ item.description }}</p>
+                    <time>Creado: {{ item.created_at|date:"d/m/Y H:i" }}</time>
+                </article>
+            {% endfor %}
+        </section>
+    {% else %}
+        <div class="empty">
+            <p>Todavía no hay items registrados.</p>
+            <p>Añade algunos desde el <a href="/admin/">panel de administración</a>.</p>
+        </div>
+    {% endif %}
+{% endblock %}
